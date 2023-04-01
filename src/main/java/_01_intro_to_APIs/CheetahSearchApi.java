@@ -40,7 +40,7 @@ public class CheetahSearchApi {
 
         /*
         The following code makes the request and receives the response from cheetah.api.jointheleague.org.
-        In this scenario the .uri() method is is used to add our search term as a URL parameter
+        In this scenario the .uri() method is used to add our search term as a URL parameter
         at the end of the previously specified base url from the constructor.
         This uri is where are making our GET request the resulting uri would look like:
         https://cheetah.api.jointheleague.org/searchLocResults?q=java
