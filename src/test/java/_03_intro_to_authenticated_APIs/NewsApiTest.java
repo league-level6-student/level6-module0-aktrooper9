@@ -29,13 +29,14 @@ class NewsApiTest {
 
     @BeforeEach
     void setUp() {
-
+MockitoAnnotations.openMocks(this);
+newsApi = new NewsApi();
     }
 
     @Test
     void itShouldGetNewsStoryByTopic() {
         //given
-
+        newsApi.findStory("mock in Java");
         //when
 
         //then
